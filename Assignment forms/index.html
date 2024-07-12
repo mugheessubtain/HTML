@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Assignment</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label>
+                Full Name: <input type="text" name="username" required>
+            </label><br />
+            <label>
+                Email Address: <input type="email" name="email" required>
+            </label><br />
+            <label>
+                Phone Number: <input type="tel" name="phone-number" required>
+            </label><br />
+            <label> Message: <textarea name="message" cols="30" rows="5"></textarea></label><br />
+            Gender: <label> <input type="radio" name="gender" value="Male"> Male </label>
+            <label> <input type="radio" name="gender" value="female"> Female </label><br />
+            <label for="contact">Preferred Contact Method:</label>
+            <select name="contact-method" id="contact">
+                <option value="Email">Email</option>
+                <option value="message">message</option>
+                <option value="call">call</option>
+                <option value="physically">physically</option>
+            </select><br />
+            Area of Interest:
+            <label> <input type="checkbox" name="interest" value="Programming">Programming</label>
+            <label> <input type="checkbox" name="interest" value="Design">Design</label>
+            <label> <input type="checkbox" name="interest" value="Writing">Writing</label><br />
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

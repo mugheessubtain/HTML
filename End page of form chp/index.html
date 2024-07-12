@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>
+                Name: <input type="text" name="Name" size="30" maxlength="100" required>
+            </label>
+            <br /><br />
+            <label>
+                Email: <input type="email" name="Email" size="30" maxlength="100" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label for="for-hear">
+                <p>
+                    How did you hear about us?
+                </p>
+            </label>
+
+            <select id="for-hear">
+                <option value="Google">Google</option>
+                <option value="Friend">Friend</option>
+                <option value="Family">Family</option>
+                <option value="Others">Others</option>
+            </select>
+            <p>Would you visit again?</p>
+            <label>
+                Yes <input type="radio" name="visitagain" value="Yes">
+            </label>
+            <label>
+                no <input type="radio" name="visitagain" value="no">
+            </label>
+            <label>
+                Maybe <input type="radio" name="visitagain" value="Maybe">
+            </label>
+            <br /><br />
+            <label for="comments">
+                Comments:
+            </label>
+            <br />
+            <textarea rows="4" cols="40" id="comments"></textarea>
+            <br /><br />
+            <label>
+                <input type="checkbox" name="signup-for-email" value="signup-for-email">
+                Sign me up for email updates
+            </label>
+            <br /><br />
+            <input type="submit" value="submit review">
+        </fieldset>
+      </form>
+   </body>
+</html>

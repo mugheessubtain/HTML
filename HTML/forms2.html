@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            form 2
+        </title>
+    </head>
+    <body>
+        <h1>
+            Auto Complete 
+        </h1>
+        <form autocomplete="on">
+            <label for="first name:">
+                first name:
+            </label>
+            <input type="text" id="first name:"><br></form>
+            <form autocomplete="on">
+            <label for="email:">
+                email:
+            </label>
+            <input type="text" id="email:"><br><br>
+        </form>
+        <form action="./table.html">
+          <h1> Select</h1>
+            <label for="car">
+                Choose a car: 
+            </label>
+            <select id="car" name="car">
+                <option value="audi">Audi</option>
+                <option value="mercerdes">Mercerdes</option>
+                <option value="bugatti" selected>Bugatti</option>
+                <option value="ferrari">Ferrari</option>
+                <option value="toyota">Toyota</option>
+            </select>
+            <input type="submit">
+        </form>
+        <form><h1> Size and Mutiple Options</h1>
+            <label for="car">
+                Choose a car: 
+            </label>
+            <select id="car" name="car" size="4" multiple>
+                <option value="audi">Audi</option>
+                <option value="mercerdes" selected>Mercerdes</option>
+                <option value="bugatti" >Bugatti</option>
+                <option value="ferrari">Ferrari</option>
+                <option value="toyota">Toyota</option>
+            </select>
+            <input type="submit"></form>
+            <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+            <br><br>
+            <h1>Textarea</h1>
+            <textarea name="message" rows="10" cols="20"> I am learning HTML</textarea><br>
+            <button>
+                submit
+            </button>
+            <h1> Button and Alert</h1>
+            <button type="button" onclick="alert('HEllo MUghEeS')"> Click me!</button><br><br>
+            <h1> Fieldset and Legend</h1>
+            <fieldset>
+                <legend> Personal Information</legend>
+                <label for="first name:">
+                    first name:
+                </label>
+                <input type="text" id="first name:"><br></form>
+                <form autocomplete="on">
+                <label for="email:">
+                    email:
+                </label>
+                <input type="text" id="email:"><br><br>
+
+            </fieldset>
+            <form>
+                <h1> Datalist</h1>
+            <input list="browers">
+            <datalist id="browsers">
+            <option value="Chrome">chrome</option>
+                <option value="Safari">sarari</option>
+            <option value="Opera">opera</option>
+            
+            </datalist>
+</form>
+    </body>
+</html>

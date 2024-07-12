@@ -1,0 +1,29 @@
+.picture{
+    display: block;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+        text-decoration: underline;}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+li{
+    display: inline;
+}
+ul
+{
+    text-align: center;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+}
+.special{
+    width: 100px;
+}
+*{
+    background-color: #faebd7;
+}
